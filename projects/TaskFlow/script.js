@@ -1,0 +1,1 @@
+function newTask(){const t=prompt('Task name:');if(t){const l=document.createElement('label');l.innerHTML='<input type="checkbox"> '+t+' <small>New</small>';document.getElementById('tasks').appendChild(l)}}

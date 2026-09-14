@@ -1,0 +1,1 @@
+let n=0;function add(){n++;document.getElementById('count').textContent=n;}

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TaskFlow — Productivity Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<aside><div class="brand"><img src="logo.svg" alt="TaskFlow logo"><b>task<span>flow</span></b></div><nav><a class="active">▦ Dashboard</a><a>✓ My Tasks</a><a>◷ Calendar</a><a>⚙ Settings</a></nav><div class="user">SN <span>Sk Nafis<br><small>Free workspace</small></span></div></aside>
+<main><header><div><small>MONDAY, SEPTEMBER 15</small><h1>Good morning, Nafis.</h1><p>Here’s what needs your attention today.</p></div><button onclick="newTask()">+ New Task</button></header>
+<div class="stats"><article><small>OPEN TASKS</small><strong>12</strong><span>↑ 8% this week</span></article><article><small>COMPLETED</small><strong>28</strong><span>Great progress</span></article><article><small>THIS WEEK</small><strong>76%</strong><span>On track</span></article></div>
+<section><div class="section-title"><h2>Today’s tasks</h2><span>3 of 6 complete</span></div><div id="tasks" class="tasks">
+<label><input type="checkbox" checked> Finalize landing page design <small>Design</small></label>
+<label><input type="checkbox"> Build responsive navigation <small>Development</small></label>
+<label><input type="checkbox"> Review client feedback <small>Client</small></label>
+<label><input type="checkbox"> Update project documentation <small>Planning</small></label></div></section>
+<div class="bottom"><div><h2>Weekly focus</h2><div class="bar"><i></i></div><p>76% of your weekly goals are on track.</p></div><div><h2>Quick note</h2><textarea placeholder="Write a note..."></textarea></div></div>
+</main><script src="script.js"></script></body></html>
